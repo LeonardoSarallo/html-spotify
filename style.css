@@ -149,11 +149,13 @@ hr {
   background-color: white;
 }
 .mainwrapper {
-  display: flex;
   width: 70%;
   height:100%;
   background: red;
   margin: 0 auto;
+}
+.m_daily {
+  display: flex;
 }
 .daily_mix {
   width: 200px;
