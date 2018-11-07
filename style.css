@@ -48,6 +48,9 @@
 .sidebarup a:hover {
   color: white;
 }
+.sidebarup a.active {
+  color: #1db954;
+}
 
 .sidebarup li {
   margin-top: 40px;
@@ -92,14 +95,32 @@
 .sidebardown {
   width: 100%;
   height: 10%;
-  background-color: pink;
+  background-color: #040503;
 }
+
 .sidebardown a {
   text-decoration: none;
   color: #696a67
 }
 .sidebardown i {
-  margin-right: 10px; 
+  margin-right: 10px;
+}
+.install, .name {
+  margin-left: 15px;
+
+}
+.name {
+  margin-top: 10px;
+}
+.install {
+  margin-bottom: 10px;
+}
+hr {
+  margin-top: 10px;
+  margin-right: 10px;
+  background-color: #696a67;
+  border: none;
+  height: 1px;
 }
 .navbar {
   width: 100%;
@@ -113,4 +134,10 @@
   background: green;
   flex-wrap: wrap;
 
+}
+.install a:hover {
+  color: white;
+}
+.name a:hover {
+  color: white;
 }
