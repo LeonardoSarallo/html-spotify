@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  top: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  background: red;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main {
+  display: flex;
+  width: 85%;
+  height: 90%;
+  background: blue;
+}
+
+.sidebar {
+  width: 15%;
+  height: 90%;
+  background: yellow;
+
+
+
+}
+
+.navbar {
+  width: 100%;
+  height: 150px;
+  background: brown;
+
+
+}
+.footermenu {
+  width: 100%;
+  height: 10%;
+  background: green;
+  flex-wrap: wrap;
+
+}
