@@ -25,25 +25,35 @@
 .sidebar {
   width: 15%;
   height: 90%;
-  background: yellow;
-
-
-
+  background: #040503;
 }
 
+.sidebarup {
+  width: 100%;
+  height :90%;
+
+}
 .sidebarup ul {
   list-style: none;
   margin-top: 25px;
+
 }
 .sidebarup a {
   text-decoration: none;
   color: #696a67;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 700;
 
 }
+.sidebarup a:hover {
+  color: white;
+}
+
 .sidebarup li {
   margin-top: 40px;
+}
+.sidebarup i {
+  margin-right: 15px;
 }
 .logo {
   width: 50%;
@@ -57,10 +67,39 @@
   margin-left: 25px;
 
 }
+.playlist_one {
+  margin-left: 40px;
+  margin-top: 35px;
+
+}
+.playlist_one h3 {
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+.playlist_one p {
+  font-size: 13px;
+}
+.playlist_two {
+  margin-left: 40px;
+  margin-top: 20px;
+}
+.playlist_two p {
+  font-size: 13px;
+}
+.playlist_one, .playlist_two p {
+  color: #696a67
+}
 .sidebardown {
   width: 100%;
-  height: 20%;
+  height: 10%;
   background-color: pink;
+}
+.sidebardown a {
+  text-decoration: none;
+  color: #696a67
+}
+.sidebardown i {
+  margin-right: 10px; 
 }
 .navbar {
   width: 100%;
