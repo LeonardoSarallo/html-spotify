@@ -10,7 +10,6 @@
   display: flex;
   width: 100%;
   height: 100vh;
-  background: red;
   display: flex;
   flex-wrap: wrap;
 }
@@ -144,6 +143,7 @@ hr {
   color: white;
 }
 .mainconteiner {
+  height: 100vw;
   height: calc(100% - 100px);
   width: 100%;
   background-color: #040503;
@@ -158,7 +158,7 @@ hr {
   background: red;
   margin: 0 auto;
 } */
-.m_daily {
+.m_daily, .m_daily2 {
   display: flex;
 }
 .daily_mix {
