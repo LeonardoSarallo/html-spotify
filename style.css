@@ -148,6 +148,10 @@ hr {
   width: 100%;
   background-color: #040503;
 }
+.mainconteiner h1 {
+  margin: 50px 15px;
+  color: white;
+}
 /* .mainwrapper {
   width: 70%;
   height:100%;
