@@ -94,7 +94,7 @@
 }
 .sidebardown {
   width: 100%;
-  height: auto;
+  height: 10%;
 
 
 
@@ -112,12 +112,12 @@
   margin-left: 15px;
 
 }
-/* .name {
+.name {
   margin-top: 10px;
 }
 .install {
   margin-bottom: 10px;
-} */
+}
 hr {
   margin-top: 10px;
   margin-right: 10px;
@@ -125,6 +125,17 @@ hr {
   border: none;
   height: 1px;
 }
+.install a:hover {
+  color: white;
+
+}
+.name a:hover {
+  color: white;
+}
+.name a.active {
+  color: white;
+}
+
 .navbar {
   display: flex;
   width: 100%;
@@ -189,15 +200,31 @@ hr {
   height: 10%;
   background: #282828;
   flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
 
 }
-.install a:hover {
-  color: white;
+.ft_left {
+  width: 20%;
+  height: 100%;
+  background: pink;
+}
+.ft_right {
+  width: 20%;
+  height: 100%;
+  background: red;
+}
+.ft_center {
+  width: 60%;
+  height: 100%;
+  background: white;
+}
+
+.ft_left a {
+
 
 }
-.name a:hover {
-  color: white;
-}
-.name a.active {
-  color: white;
+.ft_left_item {
+  display: inline-inline-block;
 }
