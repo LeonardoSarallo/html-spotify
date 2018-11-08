@@ -274,3 +274,23 @@ hr {
 .ft_rightitem a:hover {
   color: white;
 }
+.ft_center {
+  text-align: center;
+}
+.playcircle {
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  border-radius: 50px;
+  border: 1px solid #666969
+}
+.ft_centeritem {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-around;
+
+}
+.ft_centeritem a {
+  color: #696a67;
+
+}
