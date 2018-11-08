@@ -12,6 +12,7 @@
   height: 100vh;
   display: flex;
   flex-wrap: wrap;
+
 }
 
 .main {
@@ -27,6 +28,12 @@
   width: 15%;
   height: 90%;
   background: #040503;
+}
+@media screen and (max-width: 1000px)
+{
+  .sidebar {
+    display: none;
+  }
 }
 
 .sidebarup {
@@ -96,9 +103,6 @@
   width: 100%;
   height: 10%;
 
-
-
-
 }
 
 .sidebardown a {
@@ -145,6 +149,9 @@ hr {
   align-items: center;
 
 }
+.mediaimg {
+  display: none;
+}
 .navbar a {
   text-decoration: none;
   color: #696a67;
@@ -170,6 +177,7 @@ hr {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 .daily_mix {
   width: 200px;
@@ -205,6 +213,33 @@ hr {
   flex-wrap: nowrap;
 
 }
+@media screen and (max-width: 1000px)
+{
+  .footermenu {
+    width: 85%;
+  }
+}
+@media screen and (max-width: 1255px)
+{
+  .ft_right, .ft_left {
+    display: none;
+
+  }
+  .footermenu {
+    justify-content: center;
+  }
+
+}
+@media screen and (max-width: 800px)
+{
+  .ft_centeritem a {
+    margin: 0 30px;
+  }
+  .playcircle {
+    display: none;
+  }
+}
+
 .ft_left {
   width: 40%;
   height: 100%;
@@ -266,6 +301,10 @@ hr {
 }
 .ft_rightitem {
   padding-top: 30px;
+}
+.ft_rightitem img {
+  max-width: 100%;
+  height: 100%
 }
 .ft_rightitem a {
   margin: 0 15px;
