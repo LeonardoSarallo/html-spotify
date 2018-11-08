@@ -150,7 +150,7 @@ hr {
   color: #696a67;
   text-transform: uppercase;
   font-size: 15px;
-  margin: 0 30px;
+  margin: 0 15px;
 }
 .navbar a:hover {
   color: white;
@@ -206,17 +206,17 @@ hr {
 
 }
 .ft_left {
-  width: 20%;
+  width: 40%;
   height: 100%;
 
 }
 .ft_right {
-  width: 20%;
+  width: 40%;
   height: 100%;
 
 }
 .ft_center {
-  width: 60%;
+  width: 20%;
   height: 100%;
 
 }
@@ -275,14 +275,15 @@ hr {
   color: white;
 }
 .ft_center {
-  text-align: center;
+text-align: center
 }
 .playcircle {
   display: inline-block;
   height: 30px;
   width: 30px;
   border-radius: 50px;
-  border: 1px solid #666969
+  border: 1px solid #666969;
+  padding-top: 3px;
 }
 .ft_centeritem {
   padding-top: 30px;
@@ -292,5 +293,12 @@ hr {
 }
 .ft_centeritem a {
   color: #696a67;
+
+}
+.ft_centeritem a:hover {
+  color: white;
+
+}
+.playcircle {
 
 }
