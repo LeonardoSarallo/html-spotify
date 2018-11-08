@@ -128,8 +128,7 @@ hr {
   height: 100px;
   background:  #040503;
   justify-content: center;
-  align-items: flex-end;
-  justify-content: space-around;
+  align-items: center;
 
 }
 .navbar a {
@@ -137,6 +136,7 @@ hr {
   color: #696a67;
   text-transform: uppercase;
   font-size: 15px;
+  margin: 0 30px;
 }
 .navbar a:hover {
   color: white;
@@ -145,6 +145,7 @@ hr {
   height: calc(100% - 100px);
   width: 100%;
   background-color: #040503;
+  overflow: auto;
 }
 .mainconteiner h1 {
   margin: 50px 15px;
@@ -153,6 +154,8 @@ hr {
 
 .m_daily, .m_daily2 {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .daily_mix {
   width: 200px;
