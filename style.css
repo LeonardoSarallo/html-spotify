@@ -151,6 +151,14 @@ hr {
   align-items: center;
 
 }
+
+.mediaimg {
+  display: none;
+
+}
+.navhamburgermenu {
+
+}
 @media screen and (max-width: 750px)
 {
   .navitem {
@@ -159,13 +167,14 @@ hr {
   .mediaimg {
     display: block;
 
+
+  }
+  .mediaimg img {
+    width: 20%;
+    height: 100%;
+    margin-left: 30px;
   }
 
-}
-.mediaimg {
-  display: none;
-  width: 50%;
-  height: 50px;
 }
 .navbar a {
   text-decoration: none;
