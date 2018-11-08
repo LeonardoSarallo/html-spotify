@@ -166,16 +166,22 @@ hr {
   background-color: ;
   text-align: center;
   padding: 10px;
+  margin-bottom: 50px;
 }
 .daily_mix img {
   max-width: 100%;
+  margin-bottom: 15px;
 }
 .daily_mix a {
   text-decoration: none;
+  color: white;
+
 }
 .daily_mix p {
   font-size: 11px;
-  color: #696a67
+  color: #696a67;
+  margin-top: 10px;
+
 
 }
 .footermenu {
