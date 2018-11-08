@@ -270,13 +270,21 @@ hr {
   }
 
 }
+.playcircle {
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  border-radius: 50px;
+  border: 1px solid #666969;
+  padding-top: 3px;
+}
 @media screen and (max-width: 800px)
 {
   .ft_centeritem a {
     margin: 0 30px;
   }
   .playcircle {
-    display: none;
+    border: 0;
   }
 }
 @media screen and (max-width: 690px)
@@ -358,14 +366,7 @@ hr {
 .ft_center {
 text-align: center
 }
-.playcircle {
-  display: inline-block;
-  height: 30px;
-  width: 30px;
-  border-radius: 50px;
-  border: 1px solid #666969;
-  padding-top: 3px;
-}
+
 .ft_centeritem {
   padding-top: 30px;
   display: flex;
@@ -378,8 +379,5 @@ text-align: center
 }
 .ft_centeritem a:hover {
   color: white;
-
-}
-.playcircle {
 
 }
