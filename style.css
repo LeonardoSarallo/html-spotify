@@ -22,7 +22,7 @@
 
   flex-wrap: wrap;
 }
-/* inizio sidebar */
+
 .sidebar {
   width: 15%;
   height: 90%;
@@ -358,7 +358,7 @@ hr {
 }
 .ft_rightitem img {
   max-width: 100%;
-  height: 100%
+  height: 100%;
 }
 .ft_rightitem a {
   margin: 0 15px;
@@ -368,7 +368,7 @@ hr {
   color: white;
 }
 .ft_center {
-text-align: center
+text-align: center;
 }
 
 .ft_centeritem {
@@ -379,6 +379,7 @@ text-align: center
 }
 .ft_centeritem a {
   color: #696a67;
+
 
 }
 .ft_centeritem a:hover {
