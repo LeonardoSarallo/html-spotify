@@ -264,13 +264,13 @@ hr {
   text-align: center;
 
 }
-.ft_righitem {
+.ft_rightitem {
   padding-top: 30px;
 }
-.ft_righitem a {
+.ft_rightitem a {
   margin: 0 15px;
   color: #696a67;
 }
-.ft_righitem a:hover {
+.ft_rightitem a:hover {
   color: white;
 }
